@@ -2,7 +2,7 @@
 
 name: Github Pages Publish
 
-on: status
+on: push
 
 jobs:
   build:
