@@ -2,10 +2,7 @@
 
 name: Github Pages Publish
 
-on:
-  push:
-    branches:
-      - master
+on: repository_dispatch
 
 jobs:
   build:
