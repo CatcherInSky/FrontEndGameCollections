@@ -967,6 +967,64 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@garfish/browser-snapshot@1.8.1":
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/@garfish/browser-snapshot/-/browser-snapshot-1.8.1.tgz#ec433e05d5585cc8f5fecb4669be61299681a7c6"
+  integrity sha512-lwOZ9K6kSKOcgWzs+WrtOgQPK8CYdohGWmFx+4qVsoTxrCd+8bc2G5o7OriOeYMV2ArNSqi/4j44rvySuzXrQQ==
+  dependencies:
+    "@garfish/core" "1.8.1"
+    "@garfish/utils" "1.8.1"
+
+"@garfish/browser-vm@1.8.1":
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/@garfish/browser-vm/-/browser-vm-1.8.1.tgz#df8a33e438a4cfa569b3c6c33b16f6c5eb9b299d"
+  integrity sha512-nZBAU9Tf51sXQBR6Sfh+kElJmhL/kPeLvZq+yKi/ZcPiUADUz+oAs7ZB9gw59tT2muTryMsyAHmdo3+rsUPFYA==
+  dependencies:
+    "@garfish/core" "1.8.1"
+    "@garfish/hooks" "1.8.1"
+    "@garfish/loader" "1.8.1"
+    "@garfish/utils" "1.8.1"
+
+"@garfish/core@1.8.1":
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/@garfish/core/-/core-1.8.1.tgz#b13ecdd0c4a1d12672fe2e512c3084e73de57a49"
+  integrity sha512-SOpnxyVkMnAFqWRbMbIdDPtaXOO85/DwpwEcnlJy7FkHrwULScXP9ef4CFpEHP1FGp5OEeqdbZE4np9I7HdfSw==
+  dependencies:
+    "@garfish/hooks" "1.8.1"
+    "@garfish/loader" "1.8.1"
+    "@garfish/utils" "1.8.1"
+    eventemitter2 "^6.4.5"
+
+"@garfish/hooks@1.8.1":
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/@garfish/hooks/-/hooks-1.8.1.tgz#4136b22db22cf51f86c733208ff27f0e7e13453e"
+  integrity sha512-RMykqIifB+4V3FEsI/6w0x7lWCAxt95YcDTMJtxxX0iUfFyr1dGX0Hv81Bf4Gg+hSUl74KwhopEOqejR2CbzGA==
+  dependencies:
+    "@garfish/utils" "1.8.1"
+
+"@garfish/loader@1.8.1":
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/@garfish/loader/-/loader-1.8.1.tgz#c3941207794b2adef759927832208c1e2006b5f0"
+  integrity sha512-E+BP4ASGOgpsgQma8Vs7KGG1d3BKIy0iR1UObbkU0QwlcgtKPtwZaryT0liSxxMSVVNzI7uh3bYiqBKP8eGC6w==
+  dependencies:
+    "@garfish/hooks" "1.8.1"
+    "@garfish/utils" "1.8.1"
+
+"@garfish/router@1.8.1":
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/@garfish/router/-/router-1.8.1.tgz#cd71975d1f2aa40ab85436914bdb38073727dd49"
+  integrity sha512-1YKQ8vSoqXggOYmWvxjBztuF88Memw/eZYJsYIrXBUoPewlz+i8IQTGJ/68VoBDJDIumLgOP6mSH+hzRLjnu/A==
+  dependencies:
+    "@garfish/core" "1.8.1"
+    "@garfish/utils" "1.8.1"
+
+"@garfish/utils@1.8.1":
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/@garfish/utils/-/utils-1.8.1.tgz#fefb47cfe2fc2c1b5aba48f36f101572c841f3c5"
+  integrity sha512-nscgX0+e1Lu1pvaLbQjzNWDBju0xA/3okorvgqtA6yguxLfjOKTTZP1YBLPFQSvUmHrbwZ1gfZOn2Vr3wqAy2g==
+  dependencies:
+    debug "^4.3.4"
+
 "@hapi/hoek@^9.0.0":
   version "9.3.0"
   resolved "https://registry.npmmirror.com/@hapi/hoek/-/hoek-9.3.0.tgz"
@@ -3380,6 +3438,11 @@ event-pubsub@4.3.0:
   resolved "https://registry.npmmirror.com/event-pubsub/-/event-pubsub-4.3.0.tgz"
   integrity sha512-z7IyloorXvKbFx9Bpie2+vMJKKx1fH1EN5yiTfp8CiLOTptSYy1g8H4yDpGlEdshL1PBiFtBHepF2cNsqeEeFQ==
 
+eventemitter2@^6.4.5:
+  version "6.4.5"
+  resolved "https://registry.yarnpkg.com/eventemitter2/-/eventemitter2-6.4.5.tgz#97380f758ae24ac15df8353e0cc27f8b95644655"
+  integrity sha512-bXE7Dyc1i6oQElDG0jMRZJrRAn9QR2xyyFGmBdZleNmyQX0FqGYmhZIrIrpPfm/w//LTo4tVQGOGQcGCb5q9uw==
+
 eventemitter3@^4.0.0:
   version "4.0.7"
   resolved "https://registry.npmmirror.com/eventemitter3/-/eventemitter3-4.0.7.tgz"
@@ -3672,6 +3735,17 @@ functions-have-names@^1.2.2:
   version "1.2.3"
   resolved "https://registry.npmmirror.com/functions-have-names/-/functions-have-names-1.2.3.tgz"
   integrity sha512-xckBUXyTIqT97tq2x2AMb+g163b5JFysYk0x4qxNFwbfQkmNZoiRHb6sPzI9/QV33WeuvVYBUIiD4NzNIyqaRQ==
+
+garfish@^1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/garfish/-/garfish-1.8.1.tgz#6151899511dd4bb2f57df1abf702d4246bfa2aad"
+  integrity sha512-uddooIbL4B1vmskMzof9UySm4QUjOwqJtvSIbNiMNwTS3VUJKxaexDkdO0LkTf4q2nbjxrVZ7gtNqtkv0RgInA==
+  dependencies:
+    "@garfish/browser-snapshot" "1.8.1"
+    "@garfish/browser-vm" "1.8.1"
+    "@garfish/core" "1.8.1"
+    "@garfish/router" "1.8.1"
+    "@garfish/utils" "1.8.1"
 
 gensync@^1.0.0-beta.2:
   version "1.0.0-beta.2"
